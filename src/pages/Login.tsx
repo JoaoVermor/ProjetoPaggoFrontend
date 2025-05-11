@@ -60,9 +60,9 @@ export const Login: React.FC<LoginProps> = ({ onLoginSuccess, onRegisterClick })
           {loading ? 'Entrando...' : 'Entrar'}
         </button>
         <div className="login-register">
-          Not a member yet?{' '}
+          Não tem uma conta?{' '}
           <span className="register-link" onClick={onRegisterClick}>
-            Register!
+            Registre-se!
           </span>
         </div>
       </form>
